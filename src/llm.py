@@ -12,7 +12,7 @@ def sendMessage(message: str, screenContent: str) -> str:
     conversationConfig = [
     {
         "role": "system",
-        "content": f"You are a helpful assistant that helps people find information on there screen. Below is all of the text on their screen. You must use this to figure out what is happening on the users end {screenContent}"
+        "content": f"You are a helpful assistant that helps people find information on there screen. Below is all of the text on their screen. You must use this to figure out what is happening on the users end {screenContent}. Keep responses 1-2 sentances"
     }
     ]
     conversation = conversationConfig
